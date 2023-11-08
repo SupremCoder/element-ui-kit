@@ -1,0 +1,177 @@
+:root {
+    --font: "Noto Sans SC";
+    --neutral-color-Font-regular: #606266;
+    --primary-300: #409EFF;
+    --primary-200: #3A8EE6;
+    --success: #67C23A;
+    --secondary: #909399;
+    --warning: #E6A23C;
+    --danger-300: #F56C6C;
+}
+
+button {
+    border: 0;
+    background: none;
+}
+
+.btn {
+    padding: 7px 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 4px;
+}
+
+.btn.lg {
+    padding: 9px 20px;
+}
+
+.btn.sm {
+    padding: 7px 20px;
+}
+
+.btn.mi {
+    padding: 5px 10px;
+}
+
+.btn.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn.icon.right svg {
+    order: 2;
+}
+
+.btn.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid var(--primary-200);
+}
+
+.btn.rounded {
+    border-radius: 222222px;
+}
+
+.btn:active {
+    color: var(--danger-300);
+    background-color: #fff;
+}
+
+.btn.bg-dark {
+    background-color: var(--neutral-color-Font-regular);
+}
+
+.btn.bg-primary-300 {
+    background-color: var(--primary-300);
+}
+
+.btn.bg-primary-200 {
+    background-color: var(--primary-200);
+}
+
+.btn.bg-success {
+    background-color: var(--success);
+}
+
+.btn.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.btn.bg-warning {
+    background-color: var(--warning);
+}
+
+.btn.bg-danger {
+    background-color: var(--danger-300);
+}
+
+.btn.dark {
+    color: var(--neutral-color-Font-regular);
+}
+
+.btn.primary-300 {
+    color: var(--primary-300);
+}
+
+.btn.primary-200 {
+    color: var(--primary-200);
+}
+
+.btn.success {
+    color: var(--success);
+}
+
+.btn.secondary {
+    color: var(--secondary);
+}
+
+.btn.warning {
+    color: var(--warning);
+}
+
+.btn.danger {
+    color: var(--danger-300);
+}
+
+.btn.outline-dark,
+.btn.outline-dark path {
+    color: var(--neutral-color-Font-regular);
+    border: 1px solid var(--neutral-color-Font-regular);
+    ;
+    stroke: var(--neutral-color-Font-regular);
+}
+
+.btn.outline-primary-300,
+.btn.outline-primary-300 path {
+    color: var(--primary-300);
+    border: 1px solid var(--primary-300);
+    stroke: var(--primary-300);
+}
+
+.btn.outline-primary-200,
+.btn.outline-primary-200 path {
+    color: var(--primary-200);
+    border: 1px solid var(--primary-200);
+    stroke: var(--primary-200);
+}
+
+.btn.outline-success,
+.btn.outline-success path {
+    color: var(--success);
+    border: 1px solid var(--success);
+    stroke: var(--success);
+}
+
+.btn.outline-secondary,
+.btn.outline-secondary path {
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    stroke: var(--secondary);
+}
+
+.btn.outline-warning,
+.btn.outline-warning path {
+    color: var(--warning);
+    border: 1px solid var(--warning);
+    stroke: var(--warning);
+}
+
+.btn.outline-danger,
+.btn.outline-danger path {
+    color: var(--danger-300);
+    border: 1px solid var(--danger-300);
+    stroke: var(--danger-300);
+}
+
+/* end of simple buttons */
+
+/* button that consists only icon */
+/* .btn-icon {} */
